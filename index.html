@@ -121,7 +121,7 @@
         font-size: 0.85em;
         text-align: center;
       }
-      footer #disclaimer .social .fa {
+      footer #nondisclaimer .social .fa {
         padding: 15px;
         font-size: 15px;
         width: 15px;
@@ -129,6 +129,21 @@
         text-decoration: none;
         margin: 0 4px;
         border-radius: 50%;
+      }
+      footer #nondisclaimer .social .fa:hover {
+        opacity: 0.7;
+      }
+      footer #nondisclaimer .social .fa-facebook {
+        background: #3b5998;
+        color: #fff;
+      }
+      footer #nondisclaimer .social .fa-instagram {
+        background: #125688;
+        color: #fff;
+      }
+      footer #nondisclaimer .social .fa-twitter {
+        background: #55acee;
+        color: #fff;
       }
     </style>
   </head>
@@ -221,19 +236,23 @@
         </section>
       </main>
       <footer>
-        <p class="copy" id="nondisclaimer">
-          &copy; Copyright 2020 :: GreatCliffs.com
-        </p>
-        <div class="social">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-instagram"></a>
-          <a href="#" class="fa fa-twitter"></a>
+        <div id="nondisclaimer">
+          <div class="copy">
+            <p>&copy; Copyright 2020 :: GreatCliffs.com</p>
+          </div>
+          <div class="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>
         </div>
-        <p id="disclaimer">
-          This website is designed and created solely for educational purposes
-          only at Westcliff University. All contents are not intended for any
-          commercial gain or use.
-        </p>
+        <div id="disclaimer">
+          <p>
+            This website is designed and created solely for educational purposes
+            only at Westcliff University. All contents are not intended for any
+            commercial gain or use.
+          </p>
+        </div>
       </footer>
     </div>
   </body>
